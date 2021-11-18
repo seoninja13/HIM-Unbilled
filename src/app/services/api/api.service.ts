@@ -108,7 +108,6 @@ export class ApiService {
   }
 
   getAccountList(): Observable<any> {
-
     // Patient Type - Outpatient - Total
     const url = 'http://10.234.136.199:44389/Account/Get';
     const body = {

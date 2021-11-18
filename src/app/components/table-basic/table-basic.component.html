@@ -1,0 +1,104 @@
+<div class="container">
+
+  <br />
+  <button>
+    <mat-icon (click)="AddNewRow()" class="add-button">add_box</mat-icon>
+  </button>
+  <br />
+
+  <mat-form-field style="width: 40%" appearance="outline">
+    <mat-label>Filter</mat-label>
+    <input matInput (keyup)="applyFilter($event)" #input>
+  </mat-form-field>
+  <br />
+
+  <form [formGroup]="VOForm" autocomplete="off">
+    <ng-container formArrayName="VORows">
+
+      <table mat-table #table [dataSource]="dataSource" *ngIf="dataSource !== undefined" style="margin-top: 15px">
+
+        <ng-container matColumnDef="position">
+          <th mat-header-cell *matHeaderCellDef> No. </th>
+          <td mat-cell *matCellDef="let element; let i = index" [formGroup]="element">
+            <mat-form-field style="width: 70px;">
+              <input matInput type="text" formControlName="position" [readonly]="true">
+            </mat-form-field>
+        </ng-container>
+
+        <ng-container matColumnDef="name">
+          <th mat-header-cell *matHeaderCellDef> Name </th>
+          <td mat-cell *matCellDef="let element; let i = index" [formGroup]="element">
+            <mat-form-field style="width: 70px;"
+              [appearance]="VOForm.get('VORows').value[i].isEditable? 'standard' : 'outline'">
+              <input matInput type="text" formControlName="name" [readonly]="VOForm.get('VORows').value[i].isEditable">
+            </mat-form-field>
+          </td>
+        </ng-container>
+
+        <ng-container matColumnDef="weight">
+          <th mat-header-cell *matHeaderCellDef> Weight </th>
+          <td mat-cell *matCellDef="let element; let i = index" [formGroup]="element">
+            <mat-form-field style="width: 70px;"
+              [appearance]="VOForm.get('VORows').value[i].isEditable? 'standard' : 'outline'">
+              <input matInput type="text" formControlName="weight"
+                [readonly]="VOForm.get('VORows').value[i].isEditable">
+            </mat-form-field>
+          </td>
+        </ng-container>
+
+        <ng-container matColumnDef="symbol">
+          <th mat-header-cell *matHeaderCellDef> Symbol </th>
+          <td mat-cell *matCellDef="let element; let i = index" [formGroup]="element">
+            <mat-form-field style="width: 70px;"
+              [appearance]="VOForm.get('VORows').value[i].isEditable? 'standard' : 'outline'">
+              <input matInput type="text" formControlName="symbol"
+                [readonly]="VOForm.get('VORows').value[i].isEditable">
+            </mat-form-field>
+          </td>
+        </ng-container>
+
+        <ng-container matColumnDef="action">
+          <th mat-header-cell *matHeaderCellDef> Actions </th>
+          <td mat-cell *matCellDef="let element; let i = index" [formGroup]="element">
+            <button mat-icon-button class="material-icons app-toolbar-menu save-button" matTooltip="Save Changes"
+              (click)="SaveVO(VOForm,i)" *ngIf="!VOForm.get('VORows').value[i].isEditable" color="primary">
+              <mat-icon>check_circle</mat-icon>
+            </button>
+
+            <button mat-icon-button class="material-icons app-toolbar-menu cancel-button" matTooltip="Cancel Changes"
+              color="warn" (click)="CancelSVO(VOForm,i)" *ngIf="!VOForm.get('VORows').value[i].isEditable">
+              <mat-icon>cancel</mat-icon>
+            </button>
+
+            <button mat-icon-button class="material-icons app-toolbar-menu save-button"
+              *ngIf="VOForm.get('VORows').value[i].isEditable" matTooltip="Edit" color="primary"
+              (click)="EditSVO(VOForm,i)">
+              <mat-icon>edit</mat-icon>
+            </button>
+
+            <button mat-icon-button class="material-icons app-toolbar-menu delete-button"
+              *ngIf="VOForm.get('VORows').value[i].isEditable" matTooltip="Delete" color="warn">
+              <mat-icon>delete</mat-icon>
+            </button>
+          </td>
+        </ng-container>
+
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr mat-row *matRowDef="let row; let even = even; let last = last; columns: displayedColumns;"
+          [ngClass]="{ 'gray': even, 'rule': last }"></tr>
+
+        <tr class="mat-row" *matNoDataRow>
+          <td class="mat-cell" colspan="4">No data matching the filter "{{input.value}}"</td>
+        </tr>
+
+      </table>
+
+    </ng-container>
+  </form>
+
+  <mat-card *ngIf="isLoading" style="display: flex; justify-content: center; align-items: center">
+    <mat-progress-spinner color="primary" mode="indeterminate">
+    </mat-progress-spinner>
+  </mat-card>
+
+</div>

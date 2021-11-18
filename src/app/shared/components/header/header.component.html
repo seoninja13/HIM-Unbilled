@@ -1,0 +1,79 @@
+<mat-toolbar fxLayout="row">
+    <span fxFlex>HIM Enterprise Unbilled Tool</span>
+
+    <button mat-button routerLink="/home" routerLinkActive>
+        <mat-icon>home</mat-icon>
+        HOME
+    </button>
+
+    <button mat-button routerLink="/summary" routerLinkActive>
+        <mat-icon>bar_chart</mat-icon>
+        REPORTS
+    </button>
+
+    <button mat-button routerLink="/status" routerLinkActive>
+        <mat-icon>timeline</mat-icon>
+        STATUS
+    </button>
+
+    <button mat-button routerLink="/maintenance" routerLinkActive>
+        <mat-icon>build</mat-icon>
+        MAINTENANCE
+    </button>
+
+    <button mat-button routerLink="/table-basic" routerLinkActive>
+        <mat-icon>build</mat-icon>
+        TABLE BASIC
+    </button>
+
+    <input type="search" style="border-radius: 5px; height: 40px; min-width: 120px; margin-left: 15px;">
+
+    <button mat-raised-button color="warn" routerLink="/summary" routerLinkActive
+        style="margin-left: 10px; margin-right: 10px; padding-left: 7px; padding-right: 22px">
+        <mat-icon>search</mat-icon>
+        SEARCH
+    </button>
+
+    <button mat-button routerLink="/summary" routerLinkActive style="margin-right: 10px">
+        <mat-icon>logout</mat-icon>
+        LOGOUT
+    </button>
+
+
+    <!-- <ng-container>
+        <button mat-icon-button [matMenuTriggerFor]="dropMenu" fxShow="false" fxShow.lt-md="true">
+            <mat-icon>more_vert</mat-icon>
+        </button>
+        <mat-menu #dropMenu="matMenu">
+            <ng-container *ngFor="let item of menuItems">
+                <div [fxShow]="!item.showOnDesktop" [fxShow.sm]="!item.showOnTablet" [fxShow.xs]="!item.showOnMobile">
+                    <button mat-menu-item routerLink="{{item.link}}" routerLinkActive>
+                        <mat-icon>{{item.icon}}</mat-icon>
+                        {{item.label}}
+                    </button>
+                    <mat-divider></mat-divider>
+                </div>
+            </ng-container>
+
+            <input type="search" fxHide.lt-md fxLayoutAlign="end" fxShow="false" fxShow.lt-md="true"
+                style="border-radius: 5px; height: 40px; min-width: 120px; margin-left: 15px;">
+
+            <div fxLayoutAlign="end" fxShow.lt-md="true" style="margin: 5px">
+                <button mat-raised-button color="warn">
+                    <mat-icon>search</mat-icon>
+                    SEARCH
+                </button>
+            </div>
+
+            <div fxLayoutAlign="end" fxShow.lt-md="true" style="margin: 5px">
+                <button mat-raised-button color="warn" style="margin: 5px; padding-right: 25px;">
+                    <mat-icon>refresh</mat-icon>
+                    STATUS
+                </button>
+            </div>
+
+        </mat-menu>
+    </ng-container> -->
+
+    
+</mat-toolbar>

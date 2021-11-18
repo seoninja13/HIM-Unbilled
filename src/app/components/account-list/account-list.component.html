@@ -1,0 +1,46 @@
+<div>
+
+    <div class="location"> <h2> {{accountDetails.location}} </h2> </div>
+        <table>
+            <thead class="header-unit">
+                <tr>
+                    <th><div class="header">Unit</div></th>
+                    <th><div class="header">Pat Num</div></th>
+                    <th><div class="header">Pat Name</div></th>
+                    <th><div class="header">FC</div></th>
+                    <th><div class="header">Iplan</div></th>
+                    <th><div class="header">Admit</div></th>
+                    <th><div class="header">Disch</div></th>
+                    <th><div class="header">Age</div></th>
+                    <th><div class="header">AcctBal</div></th>
+                    <th><div class="header">Pt Type</div></th>
+                    <th><div class="header">HIS Encounter</div></th>
+                    <th><div class="header">MRN</div></th>
+                    <th><div class="header">SVC Code</div></th>
+                    <th><div class="header">Resp Party</div></th>
+                    <th><div class="header">No Dx</div></th>
+                    <th><div class="header">Resp Phys</div></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let account of accountDetails.accountList">
+                    <td class="item">{{account.unit}}</td>
+                    <td class="item"><a href="#">{{account.patNum}}</a></td>
+                    <td class="item">{{account.patName}}</td>
+                    <td class="item">{{account.fc}}</td>
+                    <td class="item">>{{account.iPlan}}</td>
+                    <td class="item">{{account.admit}}</td>
+                    <td class="item">{{account.disch}}</td>
+                    <td class="item">{{account.age}}</td>
+                    <td class="item">{{account.balance}}</td>
+                    <td class="item">{{account.pt}}</td>
+                    <td class="item">{{account.hiSencounter}}</td>
+                    <td class="item">{{account.medRec}}</td>
+                    <td class="item">{{account.service}}</td>
+                    <td class="item">{{account.respParty}}</td>
+                    <td class="item">{{account.noDX}}</td>
+                    <td class="item">{{account.respPhys}}</td>
+                </tr>
+            </tbody>
+        </table>
+</div>

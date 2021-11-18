@@ -1,0 +1,558 @@
+  {
+	"displayedColumns": [
+		"facility", 
+		"postBalance", 
+		"preBalance", 
+		"grandTotal", 
+		"pArDays", 
+		"nArDays", 
+		"fdArDays", 
+		"grandAr", 
+		"thirtyDArDays"
+	],
+	"unbilledData": [
+		{
+			"facility": "Airlife",
+			"postBalance": "$459,298.00",
+			"preBalance": "$71,422.05",
+			"grandTotal": "$530,720.05",
+			"pArDays": "1.3614",
+			"nArDays": "0.2117",
+			"fdArDays": "0.0000",
+			"grandAr": "1.5731",
+			"thirtyDArDays": "1.1667 "
+		},
+		{
+			"facility": "Alaska Regional Hospital",
+			"postBalance": "$8,032,843.00",
+			"preBalance": "$14,389,753.54",
+			"grandTotal": "$22,422,596.54",
+			"pArDays": "1.8074",
+			"nArDays": "0.2117",
+			"fdArDays": "0.2783",
+			"grandAr": "5.0451",
+			"thirtyDArDays": "4.9885 "
+		},
+		{
+			"facility": "Aventura Hospital",
+			"postBalance": "$355,580,235.00",
+			"preBalance": "$25,952,202.26",
+			"grandTotal": "$381,532,437.26",
+			"pArDays": "40.7733",
+			"nArDays": "0.2117",
+			"fdArDays": "0.2783",
+			"grandAr": "5.0451",
+			"thirtyDArDays": "4.9885 "
+		},
+		{
+			"facility": "Capital Medical Center",
+			"postBalance": "$8,032,843.00",
+			"preBalance": "$14,389,753.54",
+			"grandTotal": "$22,422,596.54",
+			"pArDays": "1.8074",
+			"nArDays": "0.2117",
+			"fdArDays": "0.2783",
+			"grandAr": "5.0451",
+			"thirtyDArDays": "4.9885 "
+		},
+		{
+			"facility": "Castleview Hospital",
+			"postBalance": "$355,580,235.00",
+			"preBalance": "$25,952,202.26",
+			"grandTotal": "$381,532,437.26",
+			"pArDays": "40.7733",
+			"nArDays": "0.2117",
+			"fdArDays": "0.2783",
+			"grandAr": "5.0451",
+			"thirtyDArDays": "4.9885 "
+		},
+		{
+			"facility": "Capital Medical Center",
+			"postBalance": "$8,032,843.00",
+			"preBalance": "$14,389,753.54",
+			"grandTotal": "$22,422,596.54",
+			"pArDays": "1.8074",
+			"nArDays": "0.2117",
+			"fdArDays": "0.2783",
+			"grandAr": "5.0451",
+			"thirtyDArDays": "4.9885 "
+		},
+		{
+			"facility": "Castleview Hospital",
+			"postBalance": "$355,580,235.00",
+			"preBalance": "$25,952,202.26",
+			"grandTotal": "$381,532,437.26",
+			"pArDays": "40.7733",
+			"nArDays": "0.2117",
+			"fdArDays": "0.2783",
+			"grandAr": "5.0451",
+			"thirtyDArDays": "4.9885 "
+		},
+		{
+			"facility": "Dominion Hospital",
+			"postBalance": "$8,032,843.00",
+			"preBalance": "$14,389,753.54",
+			"grandTotal": "$22,422,596.54",
+			"pArDays": "1.8074",
+			"nArDays": "0.2117",
+			"fdArDays": "0.2783",
+			"grandAr": "2.222",
+			"thirtyDArDays": "4.9885 "
+		},
+		{
+			"facility": "HCA Houston Mainland",
+			"postBalance": "$355,580,235.00",
+			"preBalance": "$25,952,202.26",
+			"grandTotal": "$381,532,437.26",
+			"pArDays": "40.7733",
+			"nArDays": "0.2117",
+			"fdArDays": "0.2783",
+			"grandAr": "5.0451",
+			"thirtyDArDays": "4.9885 "
+		},
+		{
+			"facility": "JFK Medical Center",
+			"postBalance": "$8,032,843.00",
+			"preBalance": "$14,389,753.54",
+			"grandTotal": "$22,422,596.54",
+			"pArDays": "1.8074",
+			"nArDays": "0.2117",
+			"fdArDays": "0.2783",
+			"grandAr": "5.0451",
+			"thirtyDArDays": "1.9885 "
+		},
+		{
+			"facility": "Kendall Regional Medical ",
+			"postBalance": "$355,580,235.00",
+			"preBalance": "$25,952,202.26",
+			"grandTotal": "$381,532,437.26",
+			"pArDays": "40.7733",
+			"nArDays": "0.2117",
+			"fdArDays": "0.2783",
+			"grandAr": "5.0451",
+			"thirtyDArDays": "2.9885 "
+		},
+		{
+			"facility": "Airlife",
+			"postBalance": "$459,298.00",
+			"preBalance": "$71,422.05",
+			"grandTotal": "$530,720.05",
+			"pArDays": "1.3614",
+			"nArDays": "0.2117",
+			"fdArDays": "0.0000",
+			"grandAr": "1.5731",
+			"thirtyDArDays": "1.1667 "
+		},
+		{
+			"facility": "Alaska Regional Hospital",
+			"postBalance": "$8,032,843.00",
+			"preBalance": "$14,389,753.54",
+			"grandTotal": "$22,422,596.54",
+			"pArDays": "1.8074",
+			"nArDays": "0.2117",
+			"fdArDays": "0.2783",
+			"grandAr": "5.0451",
+			"thirtyDArDays": "4.9885 "
+		},
+		{
+			"facility": "Aventura Hospital",
+			"postBalance": "$355,580,235.00",
+			"preBalance": "$25,952,202.26",
+			"grandTotal": "$381,532,437.26",
+			"pArDays": "40.7733",
+			"nArDays": "0.2117",
+			"fdArDays": "0.2783",
+			"grandAr": "5.0451",
+			"thirtyDArDays": "4.9885 "
+		},
+		{
+			"facility": "Capital Medical Center",
+			"postBalance": "$8,032,843.00",
+			"preBalance": "$14,389,753.54",
+			"grandTotal": "$22,422,596.54",
+			"pArDays": "1.8074",
+			"nArDays": "0.2117",
+			"fdArDays": "0.2783",
+			"grandAr": "5.0451",
+			"thirtyDArDays": "4.9885 "
+		},
+		{
+			"facility": "Castleview Hospital",
+			"postBalance": "$355,580,235.00",
+			"preBalance": "$25,952,202.26",
+			"grandTotal": "$381,532,437.26",
+			"pArDays": "40.7733",
+			"nArDays": "0.2117",
+			"fdArDays": "0.2783",
+			"grandAr": "5.0451",
+			"thirtyDArDays": "4.9885 "
+		},
+		{
+			"facility": "Capital Medical Center",
+			"postBalance": "$8,032,843.00",
+			"preBalance": "$14,389,753.54",
+			"grandTotal": "$22,422,596.54",
+			"pArDays": "1.8074",
+			"nArDays": "0.2117",
+			"fdArDays": "0.2783",
+			"grandAr": "5.0451",
+			"thirtyDArDays": "4.9885 "
+		},
+		{
+			"facility": "Castleview Hospital",
+			"postBalance": "$355,580,235.00",
+			"preBalance": "$25,952,202.26",
+			"grandTotal": "$381,532,437.26",
+			"pArDays": "40.7733",
+			"nArDays": "0.2117",
+			"fdArDays": "0.2783",
+			"grandAr": "5.0451",
+			"thirtyDArDays": "4.9885 "
+		},
+		{
+			"facility": "Dominion Hospital",
+			"postBalance": "$8,032,843.00",
+			"preBalance": "$14,389,753.54",
+			"grandTotal": "$22,422,596.54",
+			"pArDays": "1.8074",
+			"nArDays": "0.2117",
+			"fdArDays": "0.2783",
+			"grandAr": "2.222",
+			"thirtyDArDays": "4.9885 "
+		},
+		{
+			"facility": "HCA Houston Mainland",
+			"postBalance": "$355,580,235.00",
+			"preBalance": "$25,952,202.26",
+			"grandTotal": "$381,532,437.26",
+			"pArDays": "40.7733",
+			"nArDays": "0.2117",
+			"fdArDays": "0.2783",
+			"grandAr": "5.0451",
+			"thirtyDArDays": "4.9885 "
+		},
+		{
+			"facility": "JFK Medical Center",
+			"postBalance": "$8,032,843.00",
+			"preBalance": "$14,389,753.54",
+			"grandTotal": "$22,422,596.54",
+			"pArDays": "1.8074",
+			"nArDays": "0.2117",
+			"fdArDays": "0.2783",
+			"grandAr": "5.0451",
+			"thirtyDArDays": "1.9885 "
+		},
+		{
+			"facility": "Kendall Regional Medical ",
+			"postBalance": "$355,580,235.00",
+			"preBalance": "$25,952,202.26",
+			"grandTotal": "$381,532,437.26",
+			"pArDays": "40.7733",
+			"nArDays": "0.2117",
+			"fdArDays": "0.2783",
+			"grandAr": "5.0451",
+			"thirtyDArDays": "2.9885 "
+		},
+		{
+			"facility": "Airlife",
+			"postBalance": "$459,298.00",
+			"preBalance": "$71,422.05",
+			"grandTotal": "$530,720.05",
+			"pArDays": "1.3614",
+			"nArDays": "0.2117",
+			"fdArDays": "0.0000",
+			"grandAr": "1.5731",
+			"thirtyDArDays": "1.1667 "
+		},
+		{
+			"facility": "Alaska Regional Hospital",
+			"postBalance": "$8,032,843.00",
+			"preBalance": "$14,389,753.54",
+			"grandTotal": "$22,422,596.54",
+			"pArDays": "1.8074",
+			"nArDays": "0.2117",
+			"fdArDays": "0.2783",
+			"grandAr": "5.0451",
+			"thirtyDArDays": "4.9885 "
+		},
+		{
+			"facility": "Aventura Hospital",
+			"postBalance": "$355,580,235.00",
+			"preBalance": "$25,952,202.26",
+			"grandTotal": "$381,532,437.26",
+			"pArDays": "40.7733",
+			"nArDays": "0.2117",
+			"fdArDays": "0.2783",
+			"grandAr": "5.0451",
+			"thirtyDArDays": "4.9885 "
+		},
+		{
+			"facility": "Capital Medical Center",
+			"postBalance": "$8,032,843.00",
+			"preBalance": "$14,389,753.54",
+			"grandTotal": "$22,422,596.54",
+			"pArDays": "1.8074",
+			"nArDays": "0.2117",
+			"fdArDays": "0.2783",
+			"grandAr": "5.0451",
+			"thirtyDArDays": "4.9885 "
+		},
+		{
+			"facility": "Castleview Hospital",
+			"postBalance": "$355,580,235.00",
+			"preBalance": "$25,952,202.26",
+			"grandTotal": "$381,532,437.26",
+			"pArDays": "40.7733",
+			"nArDays": "0.2117",
+			"fdArDays": "0.2783",
+			"grandAr": "5.0451",
+			"thirtyDArDays": "4.9885 "
+		},
+		{
+			"facility": "Capital Medical Center",
+			"postBalance": "$8,032,843.00",
+			"preBalance": "$14,389,753.54",
+			"grandTotal": "$22,422,596.54",
+			"pArDays": "1.8074",
+			"nArDays": "0.2117",
+			"fdArDays": "0.2783",
+			"grandAr": "5.0451",
+			"thirtyDArDays": "4.9885 "
+		},
+		{
+			"facility": "Castleview Hospital",
+			"postBalance": "$355,580,235.00",
+			"preBalance": "$25,952,202.26",
+			"grandTotal": "$381,532,437.26",
+			"pArDays": "40.7733",
+			"nArDays": "0.2117",
+			"fdArDays": "0.2783",
+			"grandAr": "5.0451",
+			"thirtyDArDays": "4.9885 "
+		},
+		{
+			"facility": "Dominion Hospital",
+			"postBalance": "$8,032,843.00",
+			"preBalance": "$14,389,753.54",
+			"grandTotal": "$22,422,596.54",
+			"pArDays": "1.8074",
+			"nArDays": "0.2117",
+			"fdArDays": "0.2783",
+			"grandAr": "2.222",
+			"thirtyDArDays": "4.9885 "
+		},
+		{
+			"facility": "HCA Houston Mainland",
+			"postBalance": "$355,580,235.00",
+			"preBalance": "$25,952,202.26",
+			"grandTotal": "$381,532,437.26",
+			"pArDays": "40.7733",
+			"nArDays": "0.2117",
+			"fdArDays": "0.2783",
+			"grandAr": "5.0451",
+			"thirtyDArDays": "4.9885 "
+		},
+		{
+			"facility": "JFK Medical Center",
+			"postBalance": "$8,032,843.00",
+			"preBalance": "$14,389,753.54",
+			"grandTotal": "$22,422,596.54",
+			"pArDays": "1.8074",
+			"nArDays": "0.2117",
+			"fdArDays": "0.2783",
+			"grandAr": "5.0451",
+			"thirtyDArDays": "1.9885 "
+		},
+		{
+			"facility": "Kendall Regional Medical ",
+			"postBalance": "$355,580,235.00",
+			"preBalance": "$25,952,202.26",
+			"grandTotal": "$381,532,437.26",
+			"pArDays": "40.7733",
+			"nArDays": "0.2117",
+			"fdArDays": "0.2783",
+			"grandAr": "5.0451",
+			"thirtyDArDays": "2.9885 "
+		},
+		{
+			"facility": "Airlife",
+			"postBalance": "$459,298.00",
+			"preBalance": "$71,422.05",
+			"grandTotal": "$530,720.05",
+			"pArDays": "1.3614",
+			"nArDays": "0.2117",
+			"fdArDays": "0.0000",
+			"grandAr": "1.5731",
+			"thirtyDArDays": "1.1667 "
+		},
+		{
+			"facility": "Alaska Regional Hospital",
+			"postBalance": "$8,032,843.00",
+			"preBalance": "$14,389,753.54",
+			"grandTotal": "$22,422,596.54",
+			"pArDays": "1.8074",
+			"nArDays": "0.2117",
+			"fdArDays": "0.2783",
+			"grandAr": "5.0451",
+			"thirtyDArDays": "4.9885 "
+		},
+		{
+			"facility": "Aventura Hospital",
+			"postBalance": "$355,580,235.00",
+			"preBalance": "$25,952,202.26",
+			"grandTotal": "$381,532,437.26",
+			"pArDays": "40.7733",
+			"nArDays": "0.2117",
+			"fdArDays": "0.2783",
+			"grandAr": "5.0451",
+			"thirtyDArDays": "4.9885 "
+		},
+		{
+			"facility": "Capital Medical Center",
+			"postBalance": "$8,032,843.00",
+			"preBalance": "$14,389,753.54",
+			"grandTotal": "$22,422,596.54",
+			"pArDays": "1.8074",
+			"nArDays": "0.2117",
+			"fdArDays": "0.2783",
+			"grandAr": "5.0451",
+			"thirtyDArDays": "4.9885 "
+		},
+		{
+			"facility": "Castleview Hospital",
+			"postBalance": "$355,580,235.00",
+			"preBalance": "$25,952,202.26",
+			"grandTotal": "$381,532,437.26",
+			"pArDays": "40.7733",
+			"nArDays": "0.2117",
+			"fdArDays": "0.2783",
+			"grandAr": "5.0451",
+			"thirtyDArDays": "4.9885 "
+		},
+		{
+			"facility": "Capital Medical Center",
+			"postBalance": "$8,032,843.00",
+			"preBalance": "$14,389,753.54",
+			"grandTotal": "$22,422,596.54",
+			"pArDays": "1.8074",
+			"nArDays": "0.2117",
+			"fdArDays": "0.2783",
+			"grandAr": "5.0451",
+			"thirtyDArDays": "4.9885 "
+		},
+		{
+			"facility": "Castleview Hospital",
+			"postBalance": "$355,580,235.00",
+			"preBalance": "$25,952,202.26",
+			"grandTotal": "$381,532,437.26",
+			"pArDays": "40.7733",
+			"nArDays": "0.2117",
+			"fdArDays": "0.2783",
+			"grandAr": "5.0451",
+			"thirtyDArDays": "4.9885 "
+		},
+		{
+			"facility": "Dominion Hospital",
+			"postBalance": "$8,032,843.00",
+			"preBalance": "$14,389,753.54",
+			"grandTotal": "$22,422,596.54",
+			"pArDays": "1.8074",
+			"nArDays": "0.2117",
+			"fdArDays": "0.2783",
+			"grandAr": "2.222",
+			"thirtyDArDays": "4.9885 "
+		},
+		{
+			"facility": "HCA Houston Mainland",
+			"postBalance": "$355,580,235.00",
+			"preBalance": "$25,952,202.26",
+			"grandTotal": "$381,532,437.26",
+			"pArDays": "40.7733",
+			"nArDays": "0.2117",
+			"fdArDays": "0.2783",
+			"grandAr": "5.0451",
+			"thirtyDArDays": "4.9885 "
+		},
+		{
+			"facility": "JFK Medical Center",
+			"postBalance": "$8,032,843.00",
+			"preBalance": "$14,389,753.54",
+			"grandTotal": "$22,422,596.54",
+			"pArDays": "1.8074",
+			"nArDays": "0.2117",
+			"fdArDays": "0.2783",
+			"grandAr": "5.0451",
+			"thirtyDArDays": "1.9885 "
+		},
+		{
+			"facility": "Kendall Regional Medical ",
+			"postBalance": "$355,580,235.00",
+			"preBalance": "$25,952,202.26",
+			"grandTotal": "$381,532,437.26",
+			"pArDays": "40.7733",
+			"nArDays": "0.2117",
+			"fdArDays": "0.2783",
+			"grandAr": "5.0451",
+			"thirtyDArDays": "2.9885 "
+		}
+	],
+	"unbilledDataCards": [
+		{
+			"cardTitle": "Total Post Final Bill",
+			"total": "$3,740,371,806.00"
+		},
+		{
+			"cardTitle": "(Bill49 NFD & FD)",
+			"total": "$2,691,410,119.24"
+		},
+		{
+			"cardTitle": "Grand Balance",
+			"total": "$6,431,036,328.68"
+		},
+		{
+			"cardTitle": "NFD AR Days",
+			"total": "3.57"
+		},
+		{
+			"cardTitle": "FD AR Days",
+			"total": "1.30"
+		},
+		{
+			"cardTitle": "Grand AR Days",
+			"total": "6.13"
+		},
+		{
+			"cardTitle": "30-Day Avg AR Days",
+			"total": "6.13"
+		}
+	],
+	"unbilledDataTotals": [
+		{
+			"facility": "Total"
+		},
+		{
+			"postBalance": "$3,740,371,806.00"
+		},
+		{
+			"preBalance": "$2,691,410,119.24"
+		},
+		{
+			"grandTotal": "$6,431,036,328.68"
+		},
+		{
+			"pArDays": "3.57"
+		},
+		{
+			"nArDays": "1.26"
+		},
+		{
+			"fdArDays": "1.56"
+		},
+		{
+			"grandAr": "6.13"
+		},
+		{
+			"thirtyDArDays": "6.13"
+		}
+	]
+}

@@ -1,0 +1,81 @@
+<form fxLayout="column" [formGroup]="myFormGroup">
+    <div class="input-row" fxLayout="row" fxLayoutGap="10px">
+
+        <mat-form-field fxFlex="11.5%" appearance="outline">
+            <mat-label>Effective Date</mat-label>
+            <input matInput [matDatepicker]="picker" placeholder="Pick a date" formControlName="effectiveDate">
+            <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+            <mat-datepicker #picker></mat-datepicker>
+        </mat-form-field>
+
+        <mat-form-field fxFlex appearance="outline">
+            <mat-label>Company</mat-label>
+            <mat-select formControlName="company">
+                <mat-option *ngFor="let item of homePageData.companyCollection" [value]="item.intCompanyID">
+                    {{item.txtCompanyName}}
+                </mat-option>
+            </mat-select>
+        </mat-form-field>
+
+        <mat-form-field fxFlex appearance="outline">
+            <mat-label>Division</mat-label>
+            <mat-select formControlName="division">
+                <mat-option *ngFor="let item of homePageData.divisionCollection" [value]="item.intDivisionID">
+                    {{item.txtDivisionName}}
+                </mat-option>
+            </mat-select>
+        </mat-form-field>
+
+        <mat-form-field fxFlex appearance="outline">
+            <mat-label>HSC</mat-label>
+            <mat-select formControlName="pasCoID">
+                <mat-option *ngFor="let item of homePageData.hscCollection" [value]="item.intPasCoId">
+                    {{item.txtSscName}}
+                </mat-option>
+            </mat-select>
+        </mat-form-field>
+
+        <mat-form-field fxFlex appearance="outline">
+            <mat-label>Facility</mat-label>
+            <mat-select formControlName="unit">
+                <mat-option *ngFor="let item of homePageData.facilityCollection" [value]="item.id">
+                    {{item.txtUnitName}}
+                </mat-option>
+            </mat-select>
+        </mat-form-field>
+
+        <button fxFlex="5%" type="submit" (click)="getHomePageFilterGridData()" mat-raised-button  color="success">
+            <mat-icon>filter_list</mat-icon>
+            FILTER
+        </button>
+
+        <button fxFlex="5%" mat-raised-button color="success">
+            <mat-icon>restore</mat-icon>
+            RESET
+        </button>
+
+    </div>
+
+    <div class="input-row" fxLayout="row" fxLayoutGap="10px">
+
+        <mat-form-field fxFlex="25%" appearance="outline">
+            <mat-label>Summary</mat-label>
+            <mat-select>
+                <mat-option *ngFor="let item of homePageData.divisionCollection" [value]="item.intDivisionID">
+                    {{item.txtDivisionName}}
+                </mat-option>
+            </mat-select>
+        </mat-form-field>
+
+        <button fxFlex="5%" mat-raised-button color="success">
+            <mat-icon>open_in_browser</mat-icon>
+            VIEW
+        </button>
+
+        <button fxFlex="5%" mat-raised-button color="success">
+            <mat-icon style="margin: 0; padding: 0">file_download</mat-icon>
+            DOWNLOAD
+        </button>
+    </div>
+
+</form>

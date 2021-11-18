@@ -1,0 +1,125 @@
+// .container {
+//     display: flex;
+//     flex-direction: column;
+//     min-width: 1375px;
+//     max-width: 2100px;
+//   }
+
+//   .gray {
+//     background-color: #f2f2f2;
+//   }
+
+//   .rule {
+//     border-bottom: 1px solid #b2b2b2;
+//   }
+
+//   .mat-header-cell, .mat-cell, .mat-footer-cell {
+//     border-bottom-style: none;
+//     border-left: 1px solid #b2b2b2;
+//     padding: 0 10px 0 10px;
+//     font-family: Helvetica;
+//   }
+
+//   .mat-header-cell, .mat-footer-cell {
+//     background-color: #2d4b65;
+//     color: white;
+//     font-weight: 500;
+//     font-size: 12.5pt;
+//   }
+
+//   .mat-footer-cell {
+//     border-bottom: 1px solid #b2b2b2;
+//   }
+
+//   .mat-header-row {
+//     border-bottom-style: none;
+//     position: sticky;
+//     top: 0;
+//     z-index: 100;
+//   }
+
+//   .mat-card {
+//     background-color: #f6f6f6;
+//     margin: 10px;
+//     text-align: center;
+//     padding: 15px 3px 0 0;
+//   }
+
+//   .mat-card-header {
+//     display: block;
+//     font-size: 18px;
+//   }
+
+//   .mat-card-title {
+//     font-size: 18px;
+//   }
+
+//   .mat-card-subtitle {
+//     font-weight: bold;
+//   }
+
+
+
+
+
+.pure-table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+    border: 1px solid #f5f5f5;
+}
+
+.pure-table caption {
+    color: #000;
+    font: italic 85%/1 arial, sans-serif;
+    padding: 1em 0;
+    text-align: center;
+}
+
+.pure-table td,
+.pure-table th {
+    border-left: 1px solid #cbcbcb;/*  inner column border */
+    border-width: 0 0 0 1px;
+    font-size: inherit;
+    margin: 0;
+    overflow: visible; /*to make ths where the title is really long work*/
+    padding: 0.5em 1em; /* cell padding */
+}
+
+.pure-table thead {
+    background-color: #2d4b65;
+    color: #fff;
+    text-align: left;
+    vertical-align: bottom;
+}
+
+.pure-table td {
+    background-color: transparent;
+}
+.pure-table-odd td {
+    background-color: #f2f2f2;
+}
+
+/* nth-child selector for modern browsers */
+.pure-table-striped tr:nth-child(2n-1) td {
+    background-color: #f2f2f2;
+}
+
+/* BORDERED TABLES */
+.pure-table-bordered td {
+    border-bottom: 1px solid #cbcbcb;
+}
+.pure-table-bordered tbody > tr:last-child > td {
+    border-bottom-width: 0;
+}
+
+
+/* HORIZONTAL BORDERED TABLES */
+.pure-table-horizontal td,
+.pure-table-horizontal th {
+    border-width: 0 0 1px 0;
+    border-bottom: 1px solid #b2b2b2;
+}
+.pure-table-horizontal tbody > tr:last-child > td {
+    border-bottom-width: 0;
+}
